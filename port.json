@@ -1,0 +1,49 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Hunk",
+  "slug": "hunk",
+  "group": "CLI & TUI",
+  "emoji": "🪵",
+  "description": "Living Code for Hunk. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://github.com/modem-dev/hunk",
+  "quick": "See installation instructions",
+  "aliases": [
+    "hunk"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.toml",
+    "living-code-night.toml",
+    "living-code-paper.toml",
+    "living-code-signal.toml",
+    "living-code.mjs"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "Hunk running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "Hunk running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "Hunk running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "Hunk running Living Code Signal"
+    }
+  ]
+}
